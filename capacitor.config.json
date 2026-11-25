@@ -1,0 +1,25 @@
+{
+  "appId": "com.lithiospectra.electrochem",
+  "appName": "LITHIO-SPECTRA",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "cleartext": false
+  },
+  "android": {
+    "allowMixedContent": false,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  },
+  "plugins": {
+    "NativeBatteryTelemetryLoad": {
+      "sampleRateHz": 20,
+      "defaultPulseMs": 3000
+    },
+    "UltrasonicChargerEmf": {
+      "sampleRateHz": 48000,
+      "magnetometerHz": 200
+    }
+  }
+}

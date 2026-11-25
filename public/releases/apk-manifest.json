@@ -1,0 +1,15 @@
+{
+  "packageId": "com.lithiospectra.electrochem",
+  "version": "1.24.0",
+  "filename": "lithio-spectra-v1.24.0-universal.apk",
+  "downloadUrl": "/releases/lithio-spectra-v1.24.0-universal.apk",
+  "sizeBytes": 202453,
+  "sizeKb": 197.7,
+  "sha256": "b06434b21776ff0f952c4f5251ad77fce3df983f155b3bbb2fcd3883d354a73d",
+  "bundledFilesCount": 8,
+  "builtAtUtc": "2026-11-25T03:29:56.632Z",
+  "plugins": [
+    "NativeBatteryTelemetryLoadPlugin.java",
+    "UltrasonicChargerEmfPlugin.java"
+  ]
+}
