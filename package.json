@@ -1,0 +1,20 @@
+{
+  "name": "lithio-spectra",
+  "version": "1.24.0",
+  "private": true,
+  "type": "module",
+  "description": "LITHIO-SPECTRA: Lithium-Ion Battery Electrochemistry, Thevenin DCIR & dQ/dV Forensics, Optical Moire Pouch Swell Scanner, Semenov Thermal Runaway Shield, Counterfeit Charger Forensics & Used-EV Valuation Workstation",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5173",
+    "build": "vite build && node scripts/bundle-apk.mjs",
+    "bundle:apk": "node scripts/bundle-apk.mjs",
+    "preview": "vite preview --host 0.0.0.0 --port 4173"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.11"
+  }
+}
